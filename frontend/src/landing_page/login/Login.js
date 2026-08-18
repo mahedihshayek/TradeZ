@@ -23,7 +23,7 @@ function Login() {
             setPassword("");
 
             window.location.href =
-                `https://zerodha-clone-jti1-ten.vercel.app/?token=${res.data.token}&name=${encodeURIComponent(res.data.user.name)}`;
+                `https://tradez-dashboard.vercel.app/?token=${res.data.token}&name=${encodeURIComponent(res.data.user.name)}`;
 
         } catch (err) {
             alert(err.response?.data?.message || err.message);
