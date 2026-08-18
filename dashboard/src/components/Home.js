@@ -26,7 +26,7 @@ const Home = () => {
         const savedToken = localStorage.getItem("token");
 
         if (!savedToken) {
-            window.location.href = "https://zerodha-clone-omega-liard.vercel.app/login";
+            window.location.href = "https://tradez-frontend.vercel.app/login";
         }
 
     }, []);
