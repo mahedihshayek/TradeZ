@@ -3,28 +3,61 @@ import React from 'react';
 function Hero() {
     return (
         <div className="container">
-            <div className='row p-5 border-bottom text-center'>
+
+            <div className="row p-5 border-bottom text-center">
                 <h1>Pricing</h1>
-                <h3 className='text-muted mt-3 fs-5'>Free equity investments and flat $20 traday and F&O trades</h3>
+
+                <h3 className="text-muted mt-3 fs-5">
+                    Simple, transparent pricing for a better trading experience
+                </h3>
             </div>
-            <div className='row p-5 mt-5 text-center'>
-                <div className='col-4 p-4'>
-                    <img src="media/images/pricingEquity.svg" alt="" />
-                    <h1 className='fs-4'>Free equity delivery</h1>
-                    <p className='text-muted'>All quality delivery investments are absolutely free -$0 brokerage.</p>
+
+            <div className="row p-5 mt-5 text-center">
+                <div className="col-4 p-4">
+                    <i
+                        className="fa fa-bar-chart fa-3x mb-4"
+                        aria-hidden="true"
+                    ></i>
+
+                    <h1 className="fs-4">
+                        Market Tracking
+                    </h1>
+
+                    <p className="text-muted">
+                        Explore market data and track the stocks you care about.
+                    </p>
                 </div>
-                <div className='col-4 p-4'>
-                    <img src="media/images/intradayTrades.svg" alt="" />
-                    <h1 className='fs-4'>Intraday and F&O trades</h1>
-                    <p className='text-muted'>Flat $20 or 0.03% per executed order on intraday trades across equity, currency and commodity trades.</p>
+                <div className="col-4 p-4">
+                    <i
+                        className="fa fa-exchange fa-3x mb-4"
+                        aria-hidden="true"
+                    ></i>
+
+                    <h1 className="fs-4">
+                        Trading Tools
+                    </h1>
+
+                    <p className="text-muted">
+                        Manage orders, positions, and trading activity from one dashboard.
+                    </p>
                 </div>
-                <div className='col-4 p-4'>
-                    <img src="media/images/pricingEquity.svg" alt="" />
-                    <h1 className='fs-4'>Free direct MF</h1>
-                    <p className='text-muted'>All direct mutual fund investments are absolutely free -$0 commission and DP charges. </p>
+                <div className="col-4 p-4">
+                    <i
+                        className="fa fa-pie-chart fa-3x mb-4"
+                        aria-hidden="true"
+                    ></i>
+
+                    <h1 className="fs-4">
+                        Portfolio Tracking
+                    </h1>
+
+                    <p className="text-muted">
+                        Monitor your holdings and portfolio performance in one place.
+                    </p>
                 </div>
 
             </div>
+
         </div>
     );
 }

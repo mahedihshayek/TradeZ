@@ -4,60 +4,53 @@ import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import Universe from './Universe';
 
-
-
 function ProductPage() {
     return (
         <>
             <Hero />
             <LeftSection
-                imageUrl="media/images/kite.png"
-                productName="Kite"
-                productDescription="Our ultra fast flagship trading platform with streaming market data,advanced charts, an elegant UI, and more. Enjoy the kite experience seamlessly on your android and IOS devices."
-                tryDemo=""
-                learnMore=""
-                googlePlay=""
-                appStore=""
+                icon="fa-exchange"
+                productName="TradeZ"
+                productDescription="A simple and intuitive trading experience for exploring markets, managing orders, and tracking your positions."
+                tryDemo="/"
+                learnMore="/"
+                googlePlay="/"
+                appStore="/"
             />
-
             <RightSection
-                imageUrl="media/images/console.png"
-                productName="Console"
-                productDescription="Our ultra fast flagship trading platform with streaming market data,advanced charts, an elegant UI, and more. Enjoy the kite experience seamlessly on your android and IOS devices."
-                tryDemo=""
-                learnMore=""
-                googlePlay=""
-                appStore=""
+                icon="fa-pie-chart"
+                productName="Portfolio"
+                productDescription="Monitor your holdings, positions, and portfolio performance through a clean and easy-to-use interface."
+                learnMore="/"
             />
-
             <LeftSection
-                imageUrl="media/images/coin.png"
-                productName="Coin"
-                productDescription="Buy direct funds online,commission free, delivered directly to your Demat account. Enjoy the investment experience on your Android and IOS devices."
-                tryDemo=""
-                learnMore=""
-                googlePlay=""
-                appStore=""
+                icon="fa-line-chart"
+                productName="Market Insights"
+                productDescription="Explore market movements and follow the stocks and market information that matter to you."
+                tryDemo="/"
+                learnMore="/"
+                googlePlay="/"
+                appStore="/"
             />
-
             <RightSection
-                imageUrl="media/images/kiteconnect.png"
-                productName="Kite Connect Api"
-                productDescription="Our ultra fast flagship trading platform with streaming market data,advanced charts, an elegant UI, and more. Enjoy the kite experience seamlessly on your android and IOS devices."
-                learnMore=""
+                icon="fa-code"
+                productName="TradeZ API"
+                productDescription="A developer-friendly API concept designed to connect applications with trading and market data workflows."
+                learnMore="/"
             />
-
             <LeftSection
-                imageUrl="media/images/varsity.png"
-                productName="Varsity mobile"
-                productDescription="An easy to grasp, collection to stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
-                tryDemo=""
-                learnMore=""
-                googlePlay=""
-                appStore=""
+                icon="fa-book"
+                productName="TradeZ Learn"
+                productDescription="Learn the fundamentals of markets, trading, and investing through simple and easy-to-understand educational resources."
+                tryDemo="/"
+                learnMore="/"
+                googlePlay="/"
+                appStore="/"
             />
-
-            <p className='text-center mb-5 mt-5'>Want to know more about our technology stack? Checkout Zerodha.tech blog</p>
+            <p className="text-center mb-5 mt-5">
+                Built with modern web technologies to create a simple and
+                intuitive trading experience.
+            </p>
             <Universe />
         </>
     );

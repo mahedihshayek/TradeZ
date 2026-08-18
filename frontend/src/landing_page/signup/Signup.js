@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-
 function Signup() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -39,18 +38,27 @@ function Signup() {
                         <div className="card shadow-lg border-0 rounded-4 p-4">
 
                             <div className="text-center mb-4">
-                                <img
-                                    src="/media/images/logo.svg"
-                                    alt="Zerodha"
-                                    style={{ width: "55px" }}
-                                />
+                                <div
+                                    style={{
+                                        width: "45px",
+                                        height: "45px",
+                                        margin: "0 auto",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        fontWeight: "bold",
+                                        fontSize: "18px"
+                                    }}
+                                >
+                                    TradeZ
+                                </div>
 
                                 <h2 className="mt-3 fw-bold">
                                     Create your account
                                 </h2>
 
                                 <p className="text-muted">
-                                    Start investing with Zerodha
+                                    Start investing with TradeZ
                                 </p>
                             </div>
 

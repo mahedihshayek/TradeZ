@@ -19,7 +19,6 @@ function Login() {
             localStorage.setItem("token", res.data.token);
             localStorage.setItem("username", res.data.user.name);
 
-
             setEmail("");
             setPassword("");
 
@@ -41,11 +40,20 @@ function Login() {
                         <div className="card shadow-lg border-0 rounded-4 p-4">
 
                             <div className="text-center mb-4">
-                                <img
-                                    src="/media/images/logo.svg"
-                                    alt="Zerodha"
-                                    style={{ width: "55px" }}
-                                />
+                                <div
+                                    style={{
+                                        width: "45px",
+                                        height: "45px",
+                                        margin: "0 auto",
+                                        display: "flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        fontWeight: "bold",
+                                        fontSize: "18px"
+                                    }}
+                                >
+                                    TradeZ
+                                </div>
 
                                 <h2 className="mt-3 fw-bold">
                                     Welcome Back
