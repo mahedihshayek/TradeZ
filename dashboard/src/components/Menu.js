@@ -17,7 +17,7 @@ const Menu = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("username");
 
-    window.location.href = "https://zerodha-clone-omega-liard.vercel.app/login";
+    window.location.href = "https://tradez-frontend.vercel.app/login";
   };
 
   const menuClass = "menu";
@@ -39,7 +39,17 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} alt="img" />
+      <Link className="navbar-brand" to="/">
+        <span
+          style={{
+            fontWeight: "bold",
+            fontSize: "24px",
+            color: "#424242"
+          }}
+        >
+          TradeZ 
+        </span>
+      </Link>
       <div className="menus">
         <ul>
           <li>

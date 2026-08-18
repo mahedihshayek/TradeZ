@@ -3,9 +3,7 @@ import Dashboard from "./Dashboard";
 import TopBar from "./TopBar";
 
 const Home = () => {
-
     useEffect(() => {
-
         const params = new URLSearchParams(window.location.search);
 
         const token = params.get("token");
