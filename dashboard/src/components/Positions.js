@@ -8,7 +8,7 @@ const Positions = () => {
 
     const token = localStorage.getItem("token");
 
-    axios.get("https://zerodhaclone-woxs.onrender.com/allPositions", {
+    axios.get("https://tradez-backend.onrender.com/allPositions", {
       headers: {
         Authorization: `Bearer ${token}`
       }

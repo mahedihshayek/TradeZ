@@ -10,7 +10,7 @@ function Signup() {
         e.preventDefault();
 
         try {
-            const res = await axios.post("https://zerodhaclone-woxs.onrender.com/signup", {
+            const res = await axios.post("https://tradez-backend.onrender.com/signup", {
                 name,
                 email,
                 password,

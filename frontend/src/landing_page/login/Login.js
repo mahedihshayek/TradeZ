@@ -9,7 +9,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const res = await axios.post("https://zerodhaclone-woxs.onrender.com/login",
+            const res = await axios.post("https://tradez-backend.onrender.com/login",
                 {
                     email,
                     password,

@@ -10,7 +10,7 @@ const Holdings = () => {
 
     const token = localStorage.getItem("token");
 
-    axios.get("https://zerodhaclone-woxs.onrender.com/allHoldings", {
+    axios.get("https://tradez-backend.onrender.com/allHoldings", {
       headers: {
         Authorization: `Bearer ${token}`
       }
